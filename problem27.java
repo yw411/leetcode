@@ -1,5 +1,7 @@
 package leetcode;
-
+/*
+* 两个指针，头和尾，不断进行更新
+*/
 public class problem27 {
 	public static int removeElement(int[] nums, int val) {
 		int end=nums.length-1;
